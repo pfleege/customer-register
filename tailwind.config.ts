@@ -8,6 +8,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        monofett: ["var(--font-monofett)"],
+        specialElite: ["var(--font-special-elite)"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
