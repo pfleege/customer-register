@@ -60,7 +60,9 @@ export default function Home() {
             />
           </div>
           <div className="flex flex-col w-1/2 h-fit my-8 mx-16 shadow-2xl rounded-2xl">
-            <h1 className="p-6 text-xl font-bold">Cloud storage</h1>
+            <h1 className="p-6 text-xl font-bold">
+              Store your register in the cloud
+            </h1>
             <p className="p-6">
               Deleniti porro suscipit nam dignissimos quisquam odit praesentium
               sapiente aperiam magnam eius cumque accusantium eaque quae placeat
@@ -77,11 +79,11 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="mt-[300px] mb-20 bg-white flex z-20 w-fit">
+      <section className="mt-[250px] mb-52 bg-white flex z-20 w-fit">
         <div className="flex h-96">
           <div className="flex flex-col w-1/2 h-fit my-8 mx-16 shadow-2xl rounded-2xl">
             <h1 className="p-6 text-xl font-bold">
-              Secure and available wherever you are
+              Access it securely from wherever you are
             </h1>
             <p className="p-6">
               Deserunt blanditiis impedit. Deleniti porro suscipit nam
