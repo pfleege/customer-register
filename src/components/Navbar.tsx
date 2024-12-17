@@ -18,7 +18,7 @@ const Navbar = () => {
         <h1 className="navH1 text-7xl">Customer Register</h1>
         <div className="text-3xl links flex gap-10">
           <Link href="/">Home</Link>
-          <Link href="/about">Pricing</Link>
+          <Link href="/pricing">Pricing</Link>
           <Link href="/customers">Sample</Link>
         </div>
       </div>

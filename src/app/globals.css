@@ -1,14 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* 
 #__next {
   display: flex;
   flex-direction: column;
   min-height: 100%;
+} */
+
+/* ul {
+  list-style: none;
+  padding-left: 0;
 }
 
+li {
+  padding-left: 36px;
+  background-image: url("/checkBronze.png");
+  background-repeat: no-repeat;
+  background-position: 0.5rem -0.2rem;
+  background-size: 24px 24px;
+} */
+
 :root {
+  box-sizing: border-box;
   --background: #ffffff;
   --foreground: #171717;
   height: 100%;
