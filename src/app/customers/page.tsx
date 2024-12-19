@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Footer from "../../components/Footer";
+import Link from "next/link";
 
 interface CustomersProps {
   id: number;
@@ -48,7 +49,8 @@ const Customers = () => {
         <div className="w-full max-w-screen-2xl">
           <div className="grid grid-cols-[repeat(auto-fit,min(500px))] place-content-center gap-4">
             {customers.map((customer) => (
-              <div
+              <Link
+                href={`/customers/${customer.id}`}
                 className="flex flex-col w-1/2 min-w-[440px] h-80 my-8 mx-8 p-8 bg-[url('/contactBg.png')] bg-cover bg-center"
                 key={customer.id}
               >
@@ -67,7 +69,7 @@ const Customers = () => {
                     {customer.address.city}
                   </span>
                 </p>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
