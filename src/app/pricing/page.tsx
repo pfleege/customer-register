@@ -3,10 +3,10 @@ import Footer from "@/components/Footer";
 const Pricing = () => {
   return (
     <div className="flex flex-col relative top-0 left-0 w-full h-screen z-30 font-specialElite">
-      <section className="mt-[450px] flex mx-auto my-4 z-20 w-full">
-        <div className="h-[750px] w-full flex justify-around gap-2 bg-opacity-40 bg-stone-700">
-          <div className="flex flex-col w-1/3 max-w-xl justify-between">
-            <div className="flex flex-col h-fit my-4 mx-16 shadow-2xl rounded-2xl bg-stone-700">
+      <section className="mt-[450px] flex justify-center mx-auto my-4 z-20 w-full">
+        <div className="mx-auto w-full max-w-[1050px] place-content-center">
+          <div className="my-10 max-w-[1050px] grid grid-cols-[repeat(auto-fit,min(500px))] place-content-center gap-[50px]">
+            <div className="flex flex-col h-fit mb-16 mx-16 shadow-2xl rounded-2xl bg-stone-700">
               <h2 className="px-5 pt-5 text-3xl font-bold text-white">
                 Starter Pack
               </h2>
@@ -34,11 +34,10 @@ const Pricing = () => {
             </div>
             <div className="mx-16 text-white flex flex-col items-center">
               <p className="p-4 text-xl break-all">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio
-                dolorum aliquam veritatis. Id nulla aspernatur sunt laboriosam
-                amet animi mollitia excepturi porro autem earum provident,
-                itaque nisi odio quam! Cumque, iusto nam. Aut quos recusandae
-                iure beatae.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id
+                nulla aspernatur sunt laboriosam amet animi mollitia excepturi
+                porro autem earum provident, itaque nisi odio quam! Cumque,
+                iusto nam. Aut quos recusandae iure beatae.
               </p>
               <button className="my-8 rounded-3xl border-2 border-slate-200 shadow-teal-50 shadow-2xl h-16 w-52 pt-2 text-white text-2xl font-bold hover:bg-amber-400 hover:text-black">
                 Order Now
@@ -46,8 +45,8 @@ const Pricing = () => {
             </div>
           </div>
 
-          <div className="flex flex-col w-1/3 max-w-xl justify-between">
-            <div className="flex flex-col h-fit my-4 mx-16 shadow-2xl rounded-2xl bg-stone-700">
+          <div className="my-10 max-w-[1050px] grid grid-cols-[repeat(auto-fit,min(500px))] place-content-center gap-[50px]">
+            <div className="flex flex-col h-fit mb-16 mx-16 shadow-2xl rounded-2xl bg-stone-700">
               <h2 className="px-5 pt-5 text-3xl font-bold text-white">
                 Pro Pack
               </h2>
@@ -85,8 +84,8 @@ const Pricing = () => {
             </div>
           </div>
 
-          <div className="flex flex-col w-1/3 max-w-xl justify-between">
-            <div className="flex flex-col h-fit my-4 mx-16 shadow-2xl rounded-2xl bg-stone-700">
+          <div className="my-10 max-w-[1050px] grid grid-cols-[repeat(auto-fit,min(500px))] place-content-center gap-[50px]">
+            <div className="flex flex-col h-fit mb-16 mx-16 shadow-2xl rounded-2xl bg-stone-700">
               <h2 className="px-5 pt-5 text-3xl font-bold text-white">
                 Enterprise Pack
               </h2>
@@ -129,11 +128,11 @@ const Pricing = () => {
         </div>
       </section>
 
-      <section className="mt-[50px] flex m-auto z-20 w-full">
+      <section className="my-[50px] flex m-auto z-20 w-full">
         <div className=" h-[250px] w-full flex flex-col justify-center gap-2">
-          <h2 className="pl-[53vw] text-white text-6xl">Fast</h2>
+          <h2 className="pl-[50vw] text-white text-6xl">Fast</h2>
           <h2 className="pl-[40vw] text-white text-2xl">Easy</h2>
-          <h2 className="pl-[60vw] text-white text-4xl">Secure</h2>
+          <h2 className="pl-[58vw] pb-4 text-white text-4xl">Secure</h2>
           <h2 className="pl-[45vw] text-white text-5xl">Flexible</h2>
         </div>
       </section>
@@ -144,7 +143,7 @@ const Pricing = () => {
       </section>
 
       {/* Order Button */}
-      <section className="flex m-auto z-20 w-fit">
+      <section className="flex my-20 mx-auto z-20 w-fit">
         <div className="h-[300px] flex flex-col justify-center items-center">
           <p className="w-96 py-5 text-center text-white text-3xl">
             For custom solutions, please contact our experienced sales team.
