@@ -80,21 +80,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Order Button */}
-      <section className="flex m-auto z-20 w-fit">
-        <div className="mt-10 h-[300px] flex flex-col justify-center items-center">
-          <button className="rounded-3xl border-2 border-slate-200 shadow-teal-50 shadow-2xl h-20 w-52 pt-2 text-white text-2xl font-bold hover:bg-amber-400 hover:text-black">
-            Order Now
-          </button>
-          <p className="w-96 pt-5 text-center text-white text-xl">
-            Deleniti porro suscipit nam dignissimos quisquam odit praesentium
-            sapiente. Aperiam ipsum dolor, sit amet consectetur adipisicing
-            elit.
-          </p>
-        </div>
-      </section>
-
-      <section className="mt-[25px] mb-52 bg-white flex z-20 w-fit">
+      <section className="mt-[250px] bg-white flex z-20 w-fit">
         <div className="flex h-96">
           <div className="flex flex-col w-1/2 h-fit my-8 mx-16 shadow-2xl rounded-2xl">
             <h1 className="p-6 text-xl font-bold">
@@ -123,6 +109,21 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Order Button */}
+      <section className="flex m-auto z-20 w-fit">
+        <div className="mt-10 h-[300px] flex flex-col justify-center items-center">
+          <button className="rounded-3xl border-2 border-slate-200 shadow-teal-50 shadow-2xl h-20 w-52 pt-2 text-white text-2xl font-bold hover:bg-amber-400 hover:text-black">
+            Order Now
+          </button>
+          <p className="w-96 pt-5 text-center text-white text-xl">
+            Deleniti porro suscipit nam dignissimos quisquam odit praesentium
+            sapiente. Aperiam ipsum dolor, sit amet consectetur adipisicing
+            elit.
+          </p>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );
