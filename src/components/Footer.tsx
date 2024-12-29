@@ -13,7 +13,7 @@ const Footer = () => {
               src="/iCeeqSolutionsLogo.png"
               alt="iCeeqSolutions logo"
               width={200}
-              height={40}
+              height={29}
             />
           </a>
         </h2>

@@ -85,7 +85,7 @@ const Customers = () => {
       </section>
 
       {/* Static Background */}
-      <section className="fixed top-[400px] h-screen w-screen bg-[url('/customersBg.jpg')] bg-cover bg-center z-0"></section>
+      <section className="fixed top-[400px] h-screen w-screen bg-[url('/sampleBg.jpg')] bg-cover bg-center z-0"></section>
       <Footer />
     </div>
   );
