@@ -46,12 +46,13 @@ const Customers = () => {
   return (
     <div className="flex flex-col relative top-0 left-0 w-full h-screen z-30 font-specialElite">
       <div className="mt-[450px] flex justify-center w-full bg-opacity-40 bg-stone-700 z-20">
-        <div className="w-full max-w-screen-2xl">
-          <div className="grid grid-cols-[repeat(auto-fit,min(500px))] place-content-center gap-4">
+        {/* <div className="w-full max-w-screen-2xl"> */}
+        <div className="pt-[140px] flex justify-center h-[1080px] max-w-[520px] max-h-[1080px] bg-[url('/smartPhoneFilled.png')] bg-center bg-no-repeat">
+          <div className="grid grid-cols-[repeat(auto-fit,min(520px))] max-h-[800px] place-content-center gap-4 scrollbar-hide overflow-y-scroll">
             {customers.map((customer) => (
               <Link
                 href={`/customers/${customer.id}`}
-                className="flex flex-col w-1/2 min-w-[440px] h-80 my-8 mx-8 p-8 bg-[url('/contactBg.png')] bg-cover bg-center"
+                className="flex flex-col w-1/2 min-w-[440px] h-80 my-8 ml-10 p-8 bg-[url('/contactBg.png')] bg-cover bg-center"
                 key={customer.id}
               >
                 <h2 className="ml-2 text-3xl pl-3 pt-2 font-bold border-l-8 border-amber-400 text-white">
