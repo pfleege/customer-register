@@ -4,9 +4,9 @@ const Pricing = () => {
   return (
     <div className="flex flex-col relative top-0 left-0 w-full h-screen z-30 font-specialElite">
       <section className="mt-[450px] flex justify-center mx-auto my-4 z-20 w-full">
-        <div className="mx-auto w-full max-w-[1050px] place-content-center">
-          <div className="my-10 max-w-[1050px] grid grid-cols-[repeat(auto-fit,min(500px))] place-content-center gap-[50px]">
-            <div className="flex flex-col h-fit mb-16 mx-16 shadow-2xl rounded-2xl bg-stone-700">
+        <div className="mx-auto w-full">
+          <div className="py-10 w-full grid grid-cols-[repeat(auto-fit,min(500px))] place-content-center gap-[50px] bg-opacity-70 bg-stone-700">
+            <div className="flex flex-col h-full shadow-2xl rounded-2xl bg-[url('/priceCard.jpg')] bg-cover">
               <h2 className="px-5 pt-5 text-3xl font-bold text-white">
                 Starter Pack
               </h2>
@@ -32,12 +32,13 @@ const Pricing = () => {
                 </li>
               </ul>
             </div>
-            <div className="mx-16 text-white flex flex-col items-center">
+            <div className="mx-8 text-white flex flex-col items-center">
               <p className="p-4 text-xl break-all">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id
                 nulla aspernatur sunt laboriosam amet animi mollitia excepturi
                 porro autem earum provident, itaque nisi odio quam! Cumque,
-                iusto nam. Aut quos recusandae iure beatae.
+                iusto nam. Aut quos recusandae iure beatae. Aspernatur sunt
+                laboriosam amet animi mollitia excepturi.
               </p>
               <button className="my-8 rounded-3xl border-2 border-slate-200 shadow-teal-50 shadow-2xl h-16 w-52 pt-2 text-white text-2xl font-bold hover:bg-amber-400 hover:text-black">
                 Order Now
@@ -45,8 +46,8 @@ const Pricing = () => {
             </div>
           </div>
 
-          <div className="my-10 max-w-[1050px] grid grid-cols-[repeat(auto-fit,min(500px))] place-content-center gap-[50px]">
-            <div className="flex flex-col h-fit mb-16 mx-16 shadow-2xl rounded-2xl bg-stone-700">
+          <div className="mt-[200px] py-10 w-full grid grid-cols-[repeat(auto-fit,min(500px))] place-content-center gap-[50px] bg-opacity-70 bg-stone-700">
+            <div className="flex flex-col h-full shadow-2xl rounded-2xl bg-[url('/priceCard.jpg')] bg-cover">
               <h2 className="px-5 pt-5 text-3xl font-bold text-white">
                 Pro Pack
               </h2>
@@ -72,11 +73,14 @@ const Pricing = () => {
                 </li>
               </ul>
             </div>
-            <div className="mx-16 text-white flex flex-col items-center">
+            <div className="mx-8 text-white flex flex-col items-center">
               <p className="p-4 text-xl break-all">
-                Tunei nulla aspernatur sunt laboriosam amet animi mollitia
-                excepturi porro autem earum provident, itaque nisi odio quam!
-                Cumque, iusto nam. Aut quos recusandae iure beatae.
+                Tunei mollitia excepturi porro autem earum provident, itaque
+                nisi odio quam! Cumque, iusto nam. Aut quos recusandae iure
+                beatae aspernatur sunt laboriosam amet animi.
+              </p>
+              <p className="p-4 text-xl break-all">
+                Lorem ipsum dolor sit amet. Consequatur, consectetur?
               </p>
               <button className="my-8 rounded-3xl border-2 border-slate-200 shadow-teal-50 shadow-2xl h-16 w-52 pt-2 text-white text-2xl font-bold hover:bg-amber-400 hover:text-black">
                 Order Now
@@ -84,8 +88,8 @@ const Pricing = () => {
             </div>
           </div>
 
-          <div className="my-10 max-w-[1050px] grid grid-cols-[repeat(auto-fit,min(500px))] place-content-center gap-[50px]">
-            <div className="flex flex-col h-fit mb-16 mx-16 shadow-2xl rounded-2xl bg-stone-700">
+          <div className="mt-[200px] py-10 w-full grid grid-cols-[repeat(auto-fit,min(500px))] place-content-center gap-[50px] bg-opacity-70 bg-stone-700">
+            <div className="flex flex-col h-full shadow-2xl rounded-2xl bg-[url('/priceCard.jpg')] bg-cover">
               <h2 className="px-5 pt-5 text-3xl font-bold text-white">
                 Enterprise Pack
               </h2>
@@ -111,7 +115,7 @@ const Pricing = () => {
                 </li>
               </ul>
             </div>
-            <div className="mx-16 text-white flex flex-col items-center">
+            <div className="mx-8 text-white flex flex-col items-center">
               <p className="p-4 text-xl break-all">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Quisquam reprehenderit perspiciatis debitis corporis nihil quo.
@@ -128,7 +132,7 @@ const Pricing = () => {
         </div>
       </section>
 
-      <section className="my-[50px] flex m-auto z-20 w-full">
+      <section className="mt-[70px] flex m-auto z-20 w-full">
         <div className=" h-[250px] w-full flex flex-col justify-center gap-2">
           <h2 className="pl-[50vw] text-white text-6xl">Fast</h2>
           <h2 className="pl-[40vw] text-white text-2xl">Easy</h2>
