@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Footer from "@/components/Footer";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -121,9 +122,11 @@ export default function Home() {
       {/* Order Button */}
       <section className="flex m-auto z-20 w-fit">
         <div className="mt-10 h-[300px] flex flex-col justify-center items-center">
-          <button className="rounded-3xl border-2 border-slate-200 shadow-teal-50 shadow-2xl h-20 w-52 pt-2 text-white text-2xl font-bold hover:bg-amber-400 hover:text-black">
-            Order Now
-          </button>
+          <Link href={"/pricing"}>
+            <button className="rounded-3xl border-2 border-slate-200 shadow-teal-50 shadow-2xl h-20 w-52 pt-2 text-white text-2xl font-bold hover:bg-amber-400 hover:text-black">
+              Order Now
+            </button>
+          </Link>
           <p className="w-96 pt-5 text-center text-white text-xl">
             Deleniti porro suscipit nam dignissimos quisquam odit praesentium
             sapiente. Aperiam ipsum dolor, sit amet consectetur adipisicing

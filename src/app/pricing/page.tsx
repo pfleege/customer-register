@@ -1,4 +1,5 @@
 import Footer from "@/components/Footer";
+import Link from "next/link";
 
 const Pricing = () => {
   return (
@@ -40,9 +41,11 @@ const Pricing = () => {
                 iusto nam. Aut quos recusandae iure beatae. Aspernatur sunt
                 laboriosam amet animi mollitia excepturi.
               </p>
-              <button className="my-8 rounded-3xl border-2 border-slate-200 shadow-teal-50 shadow-2xl h-16 w-52 pt-2 text-white text-2xl font-bold hover:bg-amber-400 hover:text-black">
-                Order Now
-              </button>
+              <Link href={"/order"}>
+                <button className="my-8 rounded-3xl border-2 border-slate-200 shadow-teal-50 shadow-2xl h-16 w-52 pt-2 text-white text-2xl font-bold hover:bg-amber-400 hover:text-black">
+                  Order Now
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -82,9 +85,11 @@ const Pricing = () => {
               <p className="p-4 text-xl break-all">
                 Lorem ipsum dolor sit amet. Consequatur, consectetur?
               </p>
-              <button className="my-8 rounded-3xl border-2 border-slate-200 shadow-teal-50 shadow-2xl h-16 w-52 pt-2 text-white text-2xl font-bold hover:bg-amber-400 hover:text-black">
-                Order Now
-              </button>
+              <Link href={"/order"}>
+                <button className="my-8 rounded-3xl border-2 border-slate-200 shadow-teal-50 shadow-2xl h-16 w-52 pt-2 text-white text-2xl font-bold hover:bg-amber-400 hover:text-black">
+                  Order Now
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -124,9 +129,11 @@ const Pricing = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Consequatur, consectetur?
               </p>
-              <button className="my-8 rounded-3xl border-2 border-slate-200 shadow-teal-50 shadow-2xl h-16 w-52 pt-2 text-white text-2xl font-bold hover:bg-amber-400 hover:text-black">
-                Order Now
-              </button>
+              <Link href={"/order"}>
+                <button className="my-8 rounded-3xl border-2 border-slate-200 shadow-teal-50 shadow-2xl h-16 w-52 pt-2 text-white text-2xl font-bold hover:bg-amber-400 hover:text-black">
+                  Order Now
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -160,9 +167,11 @@ const Pricing = () => {
           <p className="w-96 py-5 text-center text-white text-3xl">
             For custom solutions, please contact our experienced sales team.
           </p>
-          <button className="rounded-3xl border-4 border-amber-400 shadow-teal-50 shadow-2xl h-20 w-52 pt-2 text-white text-2xl font-bold hover:bg-amber-400 hover:border-slate-200 hover:text-black">
-            Contact Sales
-          </button>
+          <Link href={"/order"}>
+            <button className="rounded-3xl border-4 border-amber-400 shadow-teal-50 shadow-2xl h-20 w-52 pt-2 text-white text-2xl font-bold hover:bg-amber-400 hover:border-slate-200 hover:text-black">
+              Contact Sales
+            </button>
+          </Link>
         </div>
       </section>
 
