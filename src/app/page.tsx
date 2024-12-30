@@ -4,10 +4,10 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     // <div className="flex flex-col sticky top-0 left-0 w-fit h-screen z-30">
-    <div className="flex flex-col relative top-0 left-0 w-fit h-screen z-30 font-specialElite">
-      <section className="mt-[400px] bg-white flex z-20 w-fit">
-        <div className="flex h-96">
-          <div className="flex flex-col w-1/2 h-fit my-8 mx-16 shadow-2xl rounded-2xl">
+    <div className="flex flex-col relative top-0 left-0 w-full h-screen z-30 font-specialElite">
+      <section className="mt-[400px] bg-white flex z-20 w-full">
+        <div className="flex flex-col xl:flex-row items-center justify-center min-h-96 h-fit w-full">
+          <div className="flex flex-col w-[90vw] min-w-[500px] max-w-[700px] h-fit my-8 mx-16 shadow-2xl rounded-2xl">
             <h1 className="p-6 text-xl font-bold">Create your register</h1>
             <p className="p-6">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -22,11 +22,11 @@ export default function Home() {
               quidem temporibus ipsum quo laboriosam odit, illo minus!
             </p>
           </div>
-          <div className="flex h-96 w-max py-3">
+          <div className="flex w-[90vw] max-w-[700px] mb-10 xl:max-h-96 xl:max-w-[500px] xl:mb-0 py-auto">
             <Image
-              className="size-full rounded-xl"
-              width={600}
-              height={400}
+              className="size-full rounded-xl xl:mr-10"
+              width={300}
+              height={200}
               src="/createRegister.jpg"
               alt="Library"
             />
@@ -48,18 +48,18 @@ export default function Home() {
         {/* <div className="flex h-[300px] w-fit z-0"></div> */}
       </section>
 
-      <section className="bg-white flex z-20 w-fit">
-        <div className="flex h-96">
-          <div className="flex ml-16 h-96 w-max py-3">
+      <section className="bg-white flex z-20 w-full">
+        <div className="flex flex-col-reverse xl:flex-row items-center justify-center min-h-96 h-fit w-full">
+          <div className="flex w-[90vw] max-w-[700px] mb-10 xl:max-h-96 xl:max-w-[500px] xl:mb-0 py-auto">
             <Image
-              className="size-full rounded-xl"
-              width={600}
-              height={400}
+              className="size-full rounded-xl xl:mr-10"
+              width={300}
+              height={200}
               src="/cloudStorage.jpg"
               alt="Library"
             />
           </div>
-          <div className="flex flex-col w-1/2 h-fit my-8 mx-16 shadow-2xl rounded-2xl">
+          <div className="flex flex-col w-[90vw] min-w-[500px] max-w-[700px] h-fit my-8 mx-16 shadow-2xl rounded-2xl">
             <h1 className="p-6 text-xl font-bold">
               Store your register in the cloud
             </h1>
@@ -80,9 +80,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mt-[250px] bg-white flex z-20 w-fit">
-        <div className="flex h-96">
-          <div className="flex flex-col w-1/2 h-fit my-8 mx-16 shadow-2xl rounded-2xl">
+      <section className="mt-[250px] bg-white flex z-20 w-full">
+        <div className="flex flex-col xl:flex-row items-center justify-center min-h-96 h-fit w-full">
+          <div className="flex flex-col w-[90vw] min-w-[500px] max-w-[700px] h-fit my-8 mx-16 shadow-2xl rounded-2xl">
             <h1 className="p-6 text-xl font-bold">
               Access it securely from wherever you are
             </h1>
@@ -98,11 +98,11 @@ export default function Home() {
               quaerat architecto harum assumenda debitis? Eveniet est sit ab.
             </p>
           </div>
-          <div className="flex h-96 w-max py-3">
+          <div className="flex w-[90vw] max-w-[700px] mb-10 xl:max-h-96 xl:max-w-[500px] xl:mb-0 py-auto">
             <Image
-              className="size-full rounded-xl"
-              width={600}
-              height={400}
+              className="size-full rounded-xl xl:mr-10"
+              width={300}
+              height={200}
               src="/secureAvailable.jpg"
               alt="Library"
             />
