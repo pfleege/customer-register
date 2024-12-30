@@ -36,10 +36,18 @@ export default function Home() {
 
       <section className="flex m-auto z-20 w-full">
         <div className=" h-[250px] w-full flex flex-col justify-center gap-2">
-          <h2 className="pl-[53vw] text-white text-6xl">Fast</h2>
-          <h2 className="pl-[40vw] text-white text-2xl">Easy</h2>
-          <h2 className="pl-[60vw] text-white text-4xl">Secure</h2>
-          <h2 className="pl-[45vw] text-white text-5xl">Flexible</h2>
+          <h2 className="pl-[38vw] md:pl-[42vw] xl:pl-[45vw] text-white text-6xl">
+            Fast
+          </h2>
+          <h2 className="pl-[30vw] md:pl-[32vw] xl:pl-[35vw] text-white text-2xl">
+            Easy
+          </h2>
+          <h2 className="pl-[48vw] md:pl-[52vw] xl:pl-[55vw] text-white text-4xl">
+            Secure
+          </h2>
+          <h2 className="pl-[20vw] md:pl-[25vw] xl:pl-[30vw] text-white text-5xl">
+            Flexible
+          </h2>
         </div>
       </section>
 
