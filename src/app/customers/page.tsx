@@ -59,7 +59,8 @@ const Customers = () => {
         </div>
       </section>
 
-      <div className="mt-[50px] flex justify-center w-full bg-opacity-40 bg-stone-700 z-20">
+      {/* <div className="mt-[50px] flex justify-center w-full bg-opacity-40 bg-stone-700 z-20"> */}
+      <div className="mt-[50px] grid grid-cols-[repeat(auto-fit,min(520px))] gap-16 place-content-center w-full bg-opacity-40 bg-stone-700 z-20">
         {/* <div className="w-full max-w-screen-2xl"> */}
         <div className="pt-[140px] flex justify-center h-[1080px] max-w-[520px] max-h-[1080px] bg-[url('/smartPhoneFilled.png')] bg-center bg-no-repeat">
           <div className="grid grid-cols-[repeat(auto-fit,min(520px))] max-h-[800px] place-content-center gap-4 scrollbar-hide overflow-y-scroll">
@@ -89,7 +90,7 @@ const Customers = () => {
           </div>
         </div>
 
-        <div className="m-10 pt-[288px] flex justify-center h-[1080px] max-w-[520px] max-h-[1080px] bg-[url('/webBased.jpg')] bg-center bg-no-repeat border-2 border-yellow-50 rounded-2xl">
+        <div className="my-10 pt-[288px] flex justify-center h-[1080px] max-w-[520px] max-h-[1080px] bg-[url('/webBased.jpg')] bg-center bg-no-repeat border-2 border-yellow-50 rounded-2xl">
           <div className="grid grid-cols-[repeat(3,min(170px))] max-h-[530px] place-content-start gap-1 scrollbar-hide overflow-y-scroll">
             {customers.map((customer) => (
               <Link
