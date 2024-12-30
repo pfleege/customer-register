@@ -2,6 +2,8 @@
 import { useEffect, useState } from "react";
 import { use } from "react";
 import Footer from "@/components/Footer";
+import Image from "next/image";
+import Link from "next/link";
 
 interface CustomerProps {
   id: number;
@@ -56,42 +58,64 @@ const CustomerDetails = ({
     <div className="flex flex-col relative top-0 left-0 w-full h-screen z-30 font-specialElite">
       <div className="mt-[450px] flex justify-center w-full bg-opacity-40 bg-stone-700 z-20">
         <div className="w-full max-w-screen-2xl">
-          <div className="grid grid-cols-[repeat(auto-fit,min(500px))] place-content-center gap-4">
-            <div className="flex flex-col w-1/2 min-w-[440px] h-80 my-8 mx-8 p-8 bg-[url('/contactBg.png')] bg-cover bg-center">
+          <div className="mt-12 flex flex-col md:flex-row justify-center bg-opacity-80 bg-stone-700 rounded-xl">
+            <div className="mx-auto flex flex-col w-1/2 min-w-[500px] h-fit my-8 p-8 gap-2">
               <h2 className="ml-2 text-3xl pl-3 pt-2 font-bold border-l-8 border-amber-400 text-white">
                 {customer.name}
               </h2>
-              <p className="ml-2 mt-5 text-2xl text-white">
-                Company:
-                <span className="p-2 inline text-xl text-black">
+              <div className="mt-10 flex">
+                <p className="w-36 ml-2 text-2xl text-white">Company:</p>
+                <span className="w-80 pl-2 pt-1 text-xl text-black  bg-stone-100 rounded-md">
                   {customer.company.name}
                 </span>
-              </p>
-              <p className="ml-2 text-2xl text-white">
-                City:
-                <span className="p-2 inline text-xl text-black">
+              </div>
+              <div className="flex">
+                <p className="w-36 ml-2 text-2xl text-white">City:</p>
+                <span className="w-80 pl-2 pt-1 text-xl text-black  bg-stone-100 rounded-md">
                   {customer.address.city}
                 </span>
-              </p>
-              <p className="ml-2 text-2xl text-white">
-                Email:
-                <span className="p-2 inline text-xl text-black">
+              </div>
+              <div className="flex">
+                <p className="w-36 ml-2 text-2xl text-white">Email:</p>
+                <span className="w-80 pl-2 pt-1 text-xl text-black  bg-stone-100 rounded-md">
                   {customer.email}
                 </span>
-              </p>
-              <p className="ml-2 text-2xl text-white">
-                Phone:
-                <span className="p-2 inline text-xl text-black">
+              </div>
+              <div className="flex">
+                <p className="w-36 ml-2 text-2xl text-white">Phone:</p>
+                <span className="w-80 pl-2 pt-1 text-xl text-black  bg-stone-100 rounded-md">
                   {customer.phone}
                 </span>
-              </p>
-              <p className="ml-2 text-2xl text-white">
-                Website:
-                <span className="p-2 inline text-xl text-black">
+              </div>
+              <div className="flex">
+                <p className="w-36 ml-2 text-2xl text-white">Website:</p>
+                <span className="w-80 pl-2 pt-1 text-xl text-black  bg-stone-100 rounded-md">
                   {customer.website}
                 </span>
-              </p>
+              </div>
             </div>
+            <div className="max-w-[500px] mx-auto mb-10 md:my-auto">
+              <Image
+                className="rounded-xl"
+                width={300}
+                height={300}
+                src={`/customer${customer.id}.jpg`}
+                alt="Library"
+              />
+            </div>
+          </div>
+          <div className="my-12 flex flex-col w-full items-center gap-8 bg-opacity-80 bg-stone-700 rounded-xl">
+            <textarea
+              className="m-12 w-[75vw] max-w-[1080px] rounded-xl p-4"
+              name="textarea"
+              placeholder="My comments"
+              rows={10}
+            />
+            <Link href={"/customers"}>
+              <button className="mb-12 rounded-xl border-2 border-slate-200 shadow-teal-50 shadow-xl h-12 w-28 pt-1 text-white text-xl font-bold hover:bg-amber-400 hover:text-black">
+                Back
+              </button>
+            </Link>
           </div>
         </div>
       </div>
