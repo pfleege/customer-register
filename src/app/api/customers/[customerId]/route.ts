@@ -2,11 +2,12 @@ import { NextResponse } from "next/server";
 
 export async function GET(
   request: Request,
-  { params }: { params: { customerId: string } }
-) {
+  { params }: { params: Promise<{ customerId: string }> }
+): Promise<NextResponse> {
+  const { customerId } = await params;
   try {
     const response = await fetch(
-      `https://jsonplaceholder.typicode.com/users/${params.customerId}`
+      `https://jsonplaceholder.typicode.com/users/${customerId}`
     );
     const data = await response.json();
     return NextResponse.json(data);
