@@ -17,7 +17,7 @@ const Unauthorized = () => {
                 again or apply for an account below.
               </p>
               <div className="flex w-full justify-center items-center">
-                <Link href={"/unauthorized"}>
+                <Link href={"/login"}>
                   <button className="mb-10 mt-6 xl:my-0 rounded-xl border-2 border-slate-200 shadow-teal-50 shadow-2xl py-2 px-6 text-white text-2xl font-bold hover:bg-amber-400 hover:text-black">
                     Log in
                   </button>
@@ -36,11 +36,11 @@ const Unauthorized = () => {
       </section>
 
       {/* Static Background */}
-      <section className="fixed top-[400px] h-screen w-screen bg-[url('/orderBg.jpg')] bg-cover bg-center z-0"></section>
+      <section className="fixed top-[400px] h-screen w-screen bg-[url('/unauthorizedBg.jpg')] bg-cover bg-center z-0"></section>
 
       <section className="flex m-auto z-20 w-fit">
         <div className="mt-10 h-[300px] flex flex-col justify-center items-center">
-          <Link href={"/order"}>
+          <Link href={"/pricing"}>
             <button className="rounded-3xl border-2 border-slate-200 shadow-teal-50 shadow-2xl h-20 w-52 pt-2 text-white text-2xl font-bold hover:bg-amber-400 hover:text-black">
               Apply for acount
             </button>

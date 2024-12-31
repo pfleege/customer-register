@@ -57,7 +57,7 @@ const Login = () => {
       </section>
 
       {/* Static Background */}
-      <section className="fixed top-[400px] h-screen w-screen bg-[url('/orderBg.jpg')] bg-cover bg-center z-0"></section>
+      <section className="fixed top-[400px] h-screen w-screen bg-[url('/loginBg.jpg')] bg-cover bg-center z-0"></section>
 
       <section className="mt-[50px] flex m-auto z-20 w-full">
         <div className=" h-[250px] w-full flex flex-col justify-center gap-2">
