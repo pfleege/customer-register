@@ -23,7 +23,7 @@ const Order = () => {
               width={300}
               height={200}
               src="/orderDice.jpg"
-              alt="Library"
+              alt="Dices in the air"
             />
           </div>
         </div>

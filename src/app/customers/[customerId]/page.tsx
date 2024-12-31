@@ -100,7 +100,7 @@ const CustomerDetails = ({
                 width={300}
                 height={300}
                 src={`/customer${customer.id}.jpg`}
-                alt="Library"
+                alt="Image of the customer"
               />
             </div>
           </div>

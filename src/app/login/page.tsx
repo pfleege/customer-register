@@ -50,7 +50,7 @@ const Login = () => {
               width={300}
               height={150}
               src="/login.jpg"
-              alt="Library"
+              alt="Old door with light shining through the keyhole"
             />
           </div>
         </div>

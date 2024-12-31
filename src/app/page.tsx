@@ -29,7 +29,7 @@ export default function Home() {
               width={300}
               height={200}
               src="/createRegister.jpg"
-              alt="Library"
+              alt="Laptop comupter with shining screen"
             />
           </div>
         </div>
@@ -65,7 +65,7 @@ export default function Home() {
               width={300}
               height={200}
               src="/cloudStorage.jpg"
-              alt="Library"
+              alt="Cube showing cloud storage on each face"
             />
           </div>
           <div className="flex flex-col w-[90vw] min-w-[500px] max-w-[700px] h-fit my-8 mx-16 shadow-2xl rounded-2xl">
@@ -113,7 +113,7 @@ export default function Home() {
               width={300}
               height={200}
               src="/secureAvailable.jpg"
-              alt="Library"
+              alt="Iluminated view of earth from space"
             />
           </div>
         </div>

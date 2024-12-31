@@ -18,7 +18,7 @@ const Unauthorized = () => {
               </p>
               <div className="flex w-full justify-center items-center">
                 <Link href={"/login"}>
-                  <button className="mb-10 mt-6 xl:my-0 rounded-xl border-2 border-slate-200 shadow-teal-50 shadow-2xl py-2 px-6 text-white text-2xl font-bold hover:bg-amber-400 hover:text-black">
+                  <button className="mb-10 mt-6 rounded-xl border-2 border-slate-200 shadow-teal-50 shadow-2xl py-2 px-6 text-white text-2xl font-bold hover:bg-amber-400 hover:text-black">
                     Log in
                   </button>
                 </Link>
@@ -29,7 +29,7 @@ const Unauthorized = () => {
               width={300}
               height={150}
               src="/unauthorized.jpg"
-              alt="Library"
+              alt="Golden apple wrapped in barbed wire"
             />
           </div>
         </div>
