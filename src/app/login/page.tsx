@@ -38,7 +38,7 @@ const Login = () => {
                 </div>
               </div>
               <div className="flex w-full justify-center items-center">
-                <Link href={"/pricing"}>
+                <Link href={"/unauthorized"}>
                   <button className="mb-10 mt-6 xl:my-0 rounded-xl border-2 border-slate-200 shadow-teal-50 shadow-2xl py-2 px-6 text-white text-2xl font-bold hover:bg-amber-400 hover:text-black">
                     Log in
                   </button>
