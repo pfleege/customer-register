@@ -121,16 +121,16 @@ const Customers = () => {
 
       <section className="mt-[50px] flex m-auto z-20 w-full">
         <div className=" h-[250px] w-full flex flex-col justify-center gap-2">
-          <h2 className="pl-[38vw] md:pl-[42vw] xl:pl-[45vw] text-white text-6xl">
+          <h2 className="pl-[38vw] md:pl-[42vw] xl:pl-[45vw] text-black text-6xl">
             Fast
           </h2>
-          <h2 className="pl-[30vw] md:pl-[32vw] xl:pl-[35vw] text-white text-2xl">
+          <h2 className="pl-[30vw] md:pl-[32vw] xl:pl-[35vw] text-black text-2xl">
             Easy
           </h2>
-          <h2 className="pl-[48vw] md:pl-[52vw] xl:pl-[55vw] text-white text-4xl">
+          <h2 className="pl-[48vw] md:pl-[52vw] xl:pl-[55vw] text-black text-4xl">
             Secure
           </h2>
-          <h2 className="pl-[20vw] md:pl-[25vw] xl:pl-[30vw] text-white text-5xl">
+          <h2 className="pl-[20vw] md:pl-[25vw] xl:pl-[30vw] text-black text-5xl">
             Flexible
           </h2>
         </div>

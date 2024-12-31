@@ -15,8 +15,8 @@ const Navbar = () => {
         />
       </div>
       <div className="mx-auto h-[400px] flex flex-col justify-center items-center gap-10">
-        <h1 className="navH1 text-7xl">Customer Register</h1>
-        <div className="text-3xl links flex gap-10">
+        <h1 className="navH1 text-7xl firefox">Customer Register</h1>
+        <div className="text-3xl links flex gap-10 firefox">
           <Link href="/">Home</Link>
           <Link href="/pricing">Pricing</Link>
           <Link href="/customers">Sample</Link>

@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     // <div className="flex flex-col sticky top-0 left-0 w-fit h-screen z-30">
-    <div className="flex flex-col relative top-0 left-0 w-full h-screen z-30 font-specialElite">
+    <div className="flex flex-col relative top-0 left-0 w-full h-screen z-30 font-specialElite firefox">
       <section className="mt-[400px] bg-white flex z-20 w-full">
         <div className="flex flex-col xl:flex-row items-center justify-center min-h-96 h-fit w-full">
           <div className="flex flex-col w-[90vw] min-w-[500px] max-w-[700px] h-fit my-8 mx-16 shadow-2xl rounded-2xl">
