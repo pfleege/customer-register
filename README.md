@@ -1,6 +1,6 @@
 # Customer Register - a Next.js/React/TypeScript/Tailwind Demo
 
-![](./customerRegister.png)
+![](./public/customerRegister.png)
 
 <p align="center">
   Next.js Demo by <a href="https://iceeqsolutions.fi/">iCeeqSolutions</a>
@@ -35,5 +35,5 @@ For styling, we used Tailwind that allows for higher flexibility than e.g. Boots
 
 <br/><br/>
 
-<p align="center"><a href="https://iceeqsolutions.fi/"><img height="61px" width="300px" src="./iCS_Logo_Light.png"></a></p>
+<p align="center"><a href="https://iceeqsolutions.fi/"><img height="61px" width="300px" src="./public/iCS_Logo_Light.png"></a></p>
 <br/><br/>
