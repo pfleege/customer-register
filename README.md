@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Customer Register - a Next.js/React/TypeScript/Tailwind Demo
 
-## Getting Started
+![](./customerRegister.png)
 
-First, run the development server:
+<p align="center">
+  Next.js Demo by <a href="https://iceeqsolutions.fi/">iCeeqSolutions</a>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## About
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The Customer Register is a Next.js/React/TypeScript demo project where we've used a simple API (jsonplaceholder.typicode.com) to access a small 10-item long JSON object. No API key is required for this. However, even with this limited amound of data, it's possible to play around with the data in Next.js and get a feel for how to set up a dynamic routes.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+All of this could be taken a step further by adding a database connection and athetication + authorization. In this simple demo, however, no such connection is available. Instead, clicking the buttons will only re-routes the user to the different pages in the project.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+For styling, we used Tailwind that allows for higher flexibility than e.g. Bootstrap. You can find some custom configurations in the tailwind.config.ts file, which we set up for this demo.
 
-## Learn More
+## Demo
 
-To learn more about Next.js, take a look at the following resources:
+👁️ [Live Demo](https://iceeqsolutions.fi//)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Built with
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Next.js
+- TypeScript
+- React
+- Tailwind
+- API data: JSONPlaceholder
+- Prettier
 
-## Deploy on Vercel
+## Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- React components
+- Routing
+- Tailwind custom config
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<br/><br/>
+
+<p align="center"><a href="https://iceeqsolutions.fi/"><img height="61px" width="300px" src="./iCS_Logo_Light.png"></a></p>
+<br/><br/>
