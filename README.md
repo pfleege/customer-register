@@ -16,7 +16,7 @@ For styling, we used Tailwind that allows for higher flexibility than e.g. Boots
 
 ## Demo
 
-👁️ [Live Demo](https://iceeqsolutions.fi//)
+👁️ [Live Demo](https://customer-register.vercel.app/)
 
 ## Built with
 
