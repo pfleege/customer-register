@@ -42,7 +42,7 @@ const Unauthorized = () => {
         <div className="mt-10 h-[300px] flex flex-col justify-center items-center">
           <Link href={"/pricing"}>
             <button className="rounded-3xl border-2 border-slate-200 shadow-teal-50 shadow-2xl h-20 w-52 pt-2 text-white text-2xl font-bold hover:bg-amber-400 hover:text-black">
-              Apply for acount
+              Apply for account
             </button>
           </Link>
           <p className="w-96 pt-5 text-center text-white text-xl">
