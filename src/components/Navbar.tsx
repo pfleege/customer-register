@@ -23,9 +23,11 @@ const Navbar = () => {
         </div>
       </div>
       <div className="flex mb-auto mt-10">
-        <button className="mr-16 rounded-xl border-2 border-slate-200 shadow-teal-50 shadow-xl h-12 w-28 pt-1 text-white text-xl font-bold hover:bg-amber-400 hover:text-black">
-          Log in
-        </button>
+        <Link href={"/login"}>
+          <button className="mr-16 rounded-xl border-2 border-slate-200 shadow-teal-50 shadow-xl h-12 w-28 pt-1 text-white text-xl font-bold hover:bg-amber-400 hover:text-black">
+            Log in
+          </button>
+        </Link>
       </div>
     </nav>
   );
